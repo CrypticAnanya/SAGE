@@ -2,73 +2,78 @@
 
 # 🚀 Project Title
 
-> A one-line tagline or mission statement for your project.
+SAGE is an AI-powered Desktop Assistant who is a smart, lightweight personal assistant for Windows desktop environments. It leverages the powerful Terminator terminal emulator to execute shell commands, automate tasks, and provide quick access to various utilities via voice or text input.
 
 ---
 
 ## 📌 Problem Statement
 
-Select the problem statement number and title from the official list given in Participant Manual.
-
 **Example:**  
-**Problem Statement 7 – Transform the Future of Rural Commerce**
+**PS 5: Power Productivity with Screenpipe**
 
 ---
 
 ## 🎯 Objective
 
-What problem does your project solve, and who does it serve?  
-Briefly describe the real-world use case and the value it provides.
-
+-People struggle to easily control and automate tasks on their computers.
+-Business users could want to automate boring desktop actions easily, just by "talking" to their computer.
+-Developers might want faster, voice-activated or smart AI-based ways to run scripts or automate tasks.
 ---
 
 ## 🧠 Team & Approach
 
 ### Team Name:  
-`Your team name here`
+CONCAT CODERS
 
 ### Team Members:  
-- Name 1 (GitHub / LinkedIn / Role)  
-- Name 2  
-- Name 3  
+- Ananya Tandon
+- Ayush Goel
+- Mayank Bhagel
+- Ira Suvedi
 *(Add links if you want)*
 
 ### Your Approach:  
-- Why you chose this problem  
-- Key challenges you addressed  
-- Any pivots, brainstorms, or breakthroughs during hacking  
+We decided on the problem statement to make an AI-Powered desktop assistant to ease that tasks of a computer user.This problem statement was simple but not easy to achieve .We worked hard ,learned new technologies like Groq and Terminator and tried to achieve the objectibe.
+API key not responding.Integration of Groq and Terminator in our project and fulfilling the objective of the problem statement that we used.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Core Technologies Used:
-- Frontend:
-- Backend:
+- Frontend:HTML and CSS
+- Backend:Python
 - Database:
-- APIs:
-- Hosting:
+- APIs:Openapi ai Groq
+- Hosting:streamlit
 
 ### Sponsor Technologies Used (if any):
-- [ ] **Groq:** _How you used Groq_  
-- [ ] **Monad:** _Your blockchain implementation_  
-- [ ] **Fluvio:** _Real-time data handling_  
-- [ ] **Base:** _AgentKit / OnchainKit / Smart Wallet usage_  
-- [ ] **Screenpipe:** _Screen-based analytics or workflows_  
-- [ ] **Stellar:** _Payments, identity, or token usage_
-*(Mark with ✅ if completed)*
----
+- [ ] **Groq:** It is used for queries
+- [ ] **Screenpipe:** Terminator is used for changing screens ,using it to write something in notepad or opening apps and processing some commands on that  
 
 ## ✨ Key Features
 
-Highlight the most important features of your project:
+Groq quickly processes user requests with LLaMA models → understands the user's intent intelligently.
 
-- ✅ Feature 1  
-- ✅ Feature 2  
-- ✅ Feature 3  
-- ✅ Feature 4  
+'Terminator' mode acts like a bridge between the AI and the desktop: it executes actual commands, opens apps, runs programs, etc., automatically based on the AI’s interpretation.
 
-Add images, GIFs, or screenshots if helpful!
+Users can talk or type simple natural language commands like:
+
+"Open Excel"
+
+"Start a Zoom call"
+
+"Play music"
+
+"Tell Time and date"
+
+"Open Notepad and write the following"
+
+"What's the weather like?"
+
+"Open chrome and open Wikipedia"
+
+SAGE figures it out and acts — no technical skills needed.
 
 ---
 
@@ -125,14 +130,14 @@ List improvements, extensions, or follow-up features:
 
 ## 📎 Resources / Credits
 
-- APIs or datasets used  
-- Open source libraries or tools referenced  
-- Acknowledgements  
+- Openai API of Groq
+
 
 ---
 
 ## 🏁 Final Words
 
-Share your hackathon journey — challenges, learnings, fun moments, or shout-outs!
+Tackl
 
 ---
+

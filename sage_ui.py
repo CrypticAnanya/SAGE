@@ -9,9 +9,17 @@ import subprocess
 import platform
 import glob
 from urllib.parse import quote
-os.environ['PYAUTOGUI_FAKE'] = '1' 
-os.environ['DISPLAY'] = ':0'  
-import pyautogui
+try:
+    import pyautogui
+except Exception as e:
+    print("⚠️ PyAutoGUI disabled in cloud environment:", e)
+    pyautogui = None 
+
+# Later in code:
+If pyautogui:
+    pyautogui.click()  
+else:
+    st.warning("GUI automation not available in cloud.")
 import pyaudio
 import streamlit as st
 import speech_recognition as sr

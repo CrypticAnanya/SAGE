@@ -9,7 +9,8 @@ import subprocess
 import platform
 import glob
 from urllib.parse import quote
-os.environ['PYAUTOGUI_HEADLESS'] = '1'
+os.environ['PYAUTOGUI_FAKE'] = '1' 
+os.environ['DISPLAY'] = ':0'  
 import pyautogui
 import pyaudio
 import streamlit as st

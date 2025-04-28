@@ -30,7 +30,7 @@ CONCAT CODERS
 - Ayush Goel
 - Mayank Bhagel
 - Ira Suvedi
-*(Add links if you want)*
+
 
 ### Your Approach:  
 We decided on the problem statement to make an AI-Powered desktop assistant to ease that tasks of a computer user.This problem statement was simple but not easy to achieve .We worked hard ,learned new technologies like Groq and Terminator and tried to achieve the objectibe.
@@ -43,13 +43,12 @@ API key not responding.Integration of Groq and Terminator in our project and ful
 ### Core Technologies Used:
 - Frontend:HTML and CSS
 - Backend:Python
-- Database:
 - APIs:Openapi ai Groq
 - Hosting:streamlit
 
 ### Sponsor Technologies Used (if any):
 - [ ] **Groq:** It is used for queries
-- [ ] **Screenpipe:** Terminator is used for changing screens ,using it to write something in notepad or opening apps and processing some commands on that  
+- [ ] **Screenpipe:** Terminator is used for changing screens,using it to write something in notepad or opening apps and processing some commands on that  
 
 ## ✨ Key Features
 
@@ -60,8 +59,6 @@ Groq quickly processes user requests with LLaMA models → understands the user'
 Users can talk or type simple natural language commands like:
 
 "Open Excel"
-
-"Start a Zoom call"
 
 "Play music"
 
@@ -79,16 +76,16 @@ SAGE figures it out and acts — no technical skills needed.
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [Paste YouTube or Loom link here]  
-- **Pitch Deck / PPT Link:** [Paste Google Slides / PDF link here]  
+- **Demo Video Link(UI of Sage):** https://youtu.be/Vjs2eRqoQo4
+- **Demo Video Link(Backend of Sage):** https://youtu.be/KFFezQa9iOM
 
 ---
 
 ## ✅ Tasks & Bonus Checklist
 
-- [ ] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
-- [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
-- [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
+- [✅] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual) 
+- [✅] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
+- [✅] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
 
 *(Mark with ✅ if completed)*
 
@@ -98,23 +95,26 @@ SAGE figures it out and acts — no technical skills needed.
 
 ### Requirements:
 - Node.js / Python / Docker / etc.
-- API Keys (if any)
-- .env file setup (if needed)
+- API Keys (Create Groq API key from https://console.groq.com)
+- .env file setup and then pip install streamlit
 
 ### Local Setup:
 ```bash
 # Clone the repo
-git clone https://github.com/your-team/project-name
+git clone https://github.com/CrypticAnanya/SAGE.git
 
 # Install dependencies
-cd project-name
-npm install
+pip install -r requirements.txt
 
 # Start development server
-npm run dev
+Step 1- python -m venv env
+Step 2- cd env
+Step 3 - cd Scripts
+Step 4 - activate
+Step 5 - cd ..(2 times)
+Step 6 - streamlit run sage_ui.py
 ```
-
-Provide any backend/frontend split or environment setup notes here.
+sage_ui will be used by running the above command, and the backend code will run from backend_sage.py file
 
 ---
 

@@ -16,7 +16,7 @@ except Exception as e:
     pyautogui = None 
 
 # Later in code:
-If pyautogui:
+if pyautogui:
     pyautogui.click()  
 else:
     st.warning("GUI automation not available in cloud.")

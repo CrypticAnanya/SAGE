@@ -21,7 +21,7 @@ if pyautogui:
     pyautogui.click()  
 else:
     st.warning("GUI automation not available in cloud.")
-import pyaudio
+#import pyaudio
 import speech_recognition as sr
 import pyttsx3
 import time

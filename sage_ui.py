@@ -8,6 +8,7 @@ import smtplib
 import subprocess
 import platform
 import glob
+import streamlit as st
 from urllib.parse import quote
 try:
     import pyautogui
@@ -21,7 +22,6 @@ if pyautogui:
 else:
     st.warning("GUI automation not available in cloud.")
 import pyaudio
-import streamlit as st
 import speech_recognition as sr
 import pyttsx3
 import time

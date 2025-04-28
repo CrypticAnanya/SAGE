@@ -123,6 +123,7 @@ pydantic==2.11.3
 pydantic_core==2.33.1
 pydeck==0.9.1
 pydub==0.25.1
+pygame==2.6.1
 PyGetWindow==0.0.9
 Pygments==2.19.1
 PyMsgBox==1.0.9

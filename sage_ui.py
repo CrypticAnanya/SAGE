@@ -9,6 +9,7 @@ import subprocess
 import platform
 import glob
 from urllib.parse import quote
+os.environ['PYAUTOGUI_HEADLESS'] = '1'
 import pyautogui
 import pyaudio
 import streamlit as st

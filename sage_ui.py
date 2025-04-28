@@ -10,17 +10,6 @@ import platform
 import glob
 import streamlit as st
 from urllib.parse import quote
-try:
-    import pyautogui
-except Exception as e:
-    print("⚠️ PyAutoGUI disabled in cloud environment:", e)
-    pyautogui = None 
-
-# Later in code:
-if pyautogui:
-    pyautogui.click()  
-else:
-    st.warning("GUI automation not available in cloud.")
 #import pyaudio
 import speech_recognition as sr
 import pyttsx3
@@ -48,7 +37,17 @@ first_run = True
 
 # --- Streamlit UI Configuration ---
 st.set_page_config(page_title="🎙 SAGE Assistant", layout="centered", page_icon="🤖")
+try:
+    import pyautogui
+except Exception as e:
+    print("⚠️ PyAutoGUI disabled in cloud environment:", e)
+    pyautogui = None 
 
+# Later in code:
+if pyautogui:
+    pyautogui.click()  
+else:
+    st.warning("GUI automation not available in cloud.")
 # --- CUSTOM CSS ---
 st.markdown("""
 <style>

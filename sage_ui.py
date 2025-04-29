@@ -386,8 +386,8 @@ with feature_col4:
 
 def send_email(subject, body, to_email):
     """Send email using SMTP"""
-    from_email = "gppg317@gmail.com"
-    password = "AGboy@@2001"
+    from_email = "gppg317@gmail.com" #use your gmail username
+    password = "AGboy@@2001" # use your gmail password
 
     message = MIMEMultipart()
     message["From"] = from_email
@@ -409,7 +409,7 @@ def send_email(subject, body, to_email):
 def ai(prompt):
     """Query AI model for response"""
     try:
-        openai.api_key = "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"
+        openai.api_key = "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" # use your groq api key
         openai.api_base = "https://api.groq.com/openai/v1"
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
